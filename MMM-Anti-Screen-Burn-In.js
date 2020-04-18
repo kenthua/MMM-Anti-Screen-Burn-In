@@ -2,7 +2,7 @@ Module.register("MMM-Anti-Screen-Burn-In", {
 start: function(){
     setInterval(() => {
         document.querySelector("body").classList.toggle("MMM-Anti-Screen-Burn-In");
-    }, 6 * 60 * 60 * 1000); // every 6 hours
+    }, 2 * 60 * 60 * 1000); // every 2 hours
 },
 
 getStyles: function(){
